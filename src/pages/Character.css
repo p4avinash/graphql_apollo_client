@@ -1,0 +1,36 @@
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character > img {
+  border-radius: 10px;
+}
+
+.character-content {
+  margin-left: 2rem;
+}
+
+.character-episode {
+  margin-top: 2rem;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.episode {
+  margin-top: 5px;
+  padding: 10px 0px;
+  box-shadow: 3px 3px 5px #c7c2c2;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(153, 153, 153, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
